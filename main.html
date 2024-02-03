@@ -8,9 +8,40 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <table method="post">
+	  <lable for="name">Name</lable>
+	  <input type="text" placeholder="Name" id="name" required>
+	  
+	   <lable for="email">Email</lable>
+	  <input type="Email" placeholder="Email" id="email" required>
+	  
+	   <lable for="gender_m">Male</lable>
+	  <input type="radio"  id="gender_m" name="gender" required>
+	     <lable for="gender_f">Female</lable>
+	  <input type="radio"  id="gender_f" name="gender" required>
+	  
+	  <select placeholder="--Please choose an option--" id="car" required>
+		  <option>Audi</option>
+		  <option>BMW</option>
+		  <option>Jaguar</option>
+	  </select>
+	  
+	  <lable for="age">Age</lable>
+	  <input type="Number" placeholder="Age" id="age" required>
+	  
+	   <lable for="dob">DOB</lable>
+	  <input type="Date" id="dob" required>
+	  
+	  <lable for="tel">Phone Nummber</lable>
+	  <input type="Tel" placeholder="xxx-xxx-xxxx" id="tel">
+	  
+	  <lable for="password">Password</lable>
+	  <input type="Password" placeholder="Password" id="password" required>
+	  <label for="tos">I agree to the TOS</label>
+	  <input type="Checkbox" id="tos" required>
+	  <input type="button" value="submit">
+	  
+  </table>
 </body>
 
 </html>
